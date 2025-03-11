@@ -10,6 +10,14 @@ Este repositório contém os passos e recursos necessários para completar o **L
 - Aprender como usar **Document AI** e **Enrichment** para melhorar a qualidade das buscas.
 - Implementar uma solução de pesquisa cognitiva que usa dados textuais para obter insights relevantes.
 
+## Tecnologias Utilizadas
+
+- **Azure Cognitive Search**: Para indexação e consulta de dados.
+- **Azure Storage**: Para armazenamento de documentos.
+- **Azure Cognitive Services**: Para enriquecer dados com IA, como extração de sentimentos e frases-chave.
+  
+---
+
 ## Passos para Concluir o Lab
 
 ### 1. Criar o Azure AI Search
@@ -39,6 +47,7 @@ Este repositório contém os passos e recursos necessários para completar o **L
 
 **Conclusão da criação do Azure AI Search!!**
 
+---
 
 ## 2. Criar o Azure AI Services
 
@@ -68,6 +77,7 @@ Este repositório contém os passos e recursos necessários para completar o **L
 **Conclusão da criação da Azure AI Services!!**
 
 
+---
 ## 3. Criar Storage Account
 
 #### 1. Sair do Azure AI Services
@@ -123,6 +133,8 @@ Este repositório contém os passos e recursos necessários para completar o **L
 
  **Conclusão da criação da Service Account!!**
 
+---
+
  ## 4 Impotando dados para o AI Search
 
  #### 1. Sair do Service Account
@@ -143,63 +155,6 @@ Este repositório contém os passos e recursos necessários para completar o **L
  - Volte para o AI Search e clique em "Explorador de pesquisa"
  ![explorador](https://github.com/user-attachments/assets/1c1816e5-9aa1-46a1-a86c-68659bb9c3b7)
   
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-Primeiro, crie uma instância do **Azure Cognitive Search**. Esse serviço será responsável por criar índices para armazenar e consultar documentos.
-
-1. Acesse o **Azure Portal** e crie um novo recurso de **Azure Cognitive Search**.
-2. Defina um nome para o recurso e o grupo de recursos.
-
-### 2. Criar um Container de Blobs no Azure Storage
-
-Os dados a serem indexados precisam estar armazenados em um **Azure Storage Blob**. Crie uma conta de armazenamento no Azure e faça o upload de documentos para um **container de blobs**.
-
-1. Crie uma **Conta de Armazenamento** no Azure.
-2. Faça upload de arquivos de dados (como documentos, avaliações de clientes, etc.) para o **container de blobs**.
-
-### 3. Criar o Índice de Pesquisa
-
-Agora, crie um índice no **Azure Cognitive Search** para começar a indexação dos documentos.
-
-1. Defina os campos a serem indexados, como **titulo**, **autor**, **data de criação**, etc.
-2. Defina os tipos de dados e os campos pesquisáveis.
-3. Inicie a indexação dos documentos.
-
-### 4. Enriquecer os Dados com IA
-
-Use os **Cognitive Skills** do Azure para enriquecer os dados antes de armazená-los no índice. Isso inclui:
-
-- **Extração de Sentimentos**: Identificar sentimentos positivos, negativos ou neutros nos textos.
-- **Extração de Phrases-Chave**: Detectar as principais palavras-chave nos documentos.
-
-### 5. Consultar o Índice
-
-Depois que o índice for criado e os dados forem enriquecidos, execute consultas para testar a pesquisa nos dados indexados.
-
-1. Use a API ou o portal de pesquisa para consultar o índice e buscar por termos específicos.
-2. Analise os resultados para garantir que as consultas estão retornando os dados corretos.
-
----
-
-## Tecnologias Utilizadas
-
-- **Azure Cognitive Search**: Para indexação e consulta de dados.
-- **Azure Storage**: Para armazenamento de documentos.
-- **Azure Cognitive Services**: Para enriquecer dados com IA, como extração de sentimentos e frases-chave.
 
 ---
 
