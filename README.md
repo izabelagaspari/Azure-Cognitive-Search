@@ -2,7 +2,7 @@
 
 # AI Search e AI Service com Azure 
 
-Este repositório contém os passos e recursos necessários para completar o **Lab 11** do curso de **Fundamentos de Inteligência Artificial da Microsoft**, focado em **Azure AI Search**. O objetivo deste laboratório é aprender como configurar e utilizar o serviço de pesquisa cognitiva da Azure para indexar e consultar dados com a ajuda de recursos de IA.
+Este repositório contém os passos e recursos necessários para completar o **Lab 11** do curso de **Fundamentos de Inteligência Artificial da Microsoft**, focado em **Azure AI Search** e **Azure AI Services**. O objetivo deste laboratório é aprender como configurar e utilizar o serviço de pesquisa cognitiva da Azure para indexar e consultar dados com a ajuda de recursos de IA.
 
 ## Objetivos
 
